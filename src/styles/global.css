@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-gray-100;
+  -webkit-font-smoothing: antialiased;
+}
+/* CMS = Content Managenet System 
+
+  Traz tanto o painel de Admin tanto quanto a parte visual do fornt-end(temas)
+  
+  Headless CMS: Painel de Admin (dados fornecidos atrevés de uma API REST ou GraphQL)
+
+  React que consome essa API do CMS
+
+  Query / Mutation
+
+  Query = buscar dados
+  Mutation = criar, alterar ou deletar dados
+
+
+*/
